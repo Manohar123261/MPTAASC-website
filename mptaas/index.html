@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mptaas</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body><header>
+    <div class="nav-bar">
+        <button class="home-button"><i class="fa-solid fa-house"></i></button>
+        <select name="language" class="lang">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+    </div>
+    <hr style="color:2px solid rgb(236, 13, 50);">
+    <div class="logo">
+        <!-- <button class="bar1"><i class="fa-solid fa-bars"></i></button> -->
+        <button><img class="img_logo" src="MPTAAS_logo.png"></button>
+        <span class="text-head">MPTAASC<br>Madhya Pradesh Tribal Affairs And Scheduled Caste Welfare Automation System</span>
+    </div>
+</header>
+    <div class="login-box">
+        <div class="for-login-text">
+            <span class="login-text">Login</span>
+            <a href="" class="forgot-pass">forgot password ? /</a>
+            <a href="" style="margin-left: 80%;" class="forgot-pass">forgot user-Id ?</a>
+        </div>
+        <span class="user-id-text"><span style="color: red;">*</span>User Id</span>
+        <input class="input-user-id"> </input>
+        <div style="margin-top: 8px;">
+        <span class="pass-text"><span style="color: red;">*</span>Password</span>
+        <input class="input-pass"></input>
+        </div>
+
+        <div style="margin-top: 8px;">
+            <input class="captcha" id="cap" readonly></input>
+            <button class="refresh-captcha" onclick="createcap()"><i class="fa-solid fa-rotate-right"></i></i></button>
+        </div>
+
+        <div style="margin-top: 8px;">
+            <span class="captcha-text"><span style="color: red;">*</span>Input the captcha code here</span>
+            <input class="input-captcha" id="inp-cap"></input>
+        </div>
+        <button class="login-button" onclick="validatecap()">
+            <span>Login</span>
+        </button>
+        <div class="new-acc-text">
+            <a href="" class="new-acc-text">New Beneficiary account</a>
+        </div>
+    </div>
+    <div class="for-links">
+        <div class="header-links">
+            <span style="color: black;">महत्वपूर्ण लिंक</span>
+        </div>
+        <a class="links-text" href="https://www.tribal.mp.gov.in/mptaas/DeptUOB/Registrations/Index" >>>विभागीय उपयोगकर्ता पंजीकरण<br></a>
+        <a class="links-text" href="https://www.tribal.mp.gov.in/mptaas/DeptUOB/GrantTongouseronboarding/ngouseronboarding">>> Grant to NGO Registration<br></a>
+        <a class="links-text" href="https://www.tribal.mp.gov.in/PMS/Registration/BeneficiaryRegistration/PersonalDetail">>> New Registration<br></a>
+        <a class="links-text" href="">>> About Mptaasc<br></a>
+        <a class="links-text" href="https://youtu.be/VezQS6PqCfQ?si=nCCvELArRE8OQqO7">>> profile Registration video<br></a>
+        <a class="links-text" href="https://www.tribal.mp.gov.in/mptaas/MyProfile/PrintAck/GetPDF">>> Teacher profile Registration<br></a>
+        <a class="links-text" href="https://www.tribal.mp.gov.in/mptaas/Registration/Index">>> Teacher profile Registration<br></a>
+    </div>
+    <div class="contact-details">
+        <span>hy hello</span>
+    </div>
+    <footer class="for-footer">
+        <a class="footer-links" style="margin-left: 440px;" href="">Feedback |</a>
+        <a class="footer-links" style="margin-left: 515px;" href="">Terms of use |</a>
+        <a class="footer-links" style="margin-left: 620px;" href="">Privacy policy |</a>
+        <a class="footer-links" style="margin-left: 735px;" href="">Disclaimer</a>
+        
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
