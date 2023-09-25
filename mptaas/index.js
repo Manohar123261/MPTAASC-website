@@ -1,3 +1,4 @@
+
 function createcap(){
     // alert("undefined");
     var capchar = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
@@ -12,7 +13,6 @@ function createcap(){
     document.getElementById("cap").value=captcha;
 }
 function validatecap(){
-    if()
     if(document.getElementById("cap").value==document.getElementById("inp-cap").value){
         alert("form validation is successful.");
     }
@@ -20,3 +20,4 @@ function validatecap(){
         alert("please enter valid captcha.");
     }
 }
+createcap();
