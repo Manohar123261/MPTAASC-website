@@ -42,9 +42,81 @@
     margin-left: 3px;
 }
 .hitgrahi{
-    font-size: 20px;
+    font-size: 15px;
     font-style: italic;
     margin-top: 15px;
     position: absolute;
-    margin-left: 20px;
+    margin-left: 60px;
 }
+/* for nav */
+.nav{
+    width: 3%;
+    float: left;
+    background-color: lightcyan;
+    height: 80%;
+    position: absolute;
+}
+/* for main */
+.main{
+    margin-top: 8%;
+    width: 94%;
+    float: left;
+    margin-left: 40px;
+    height: 80%;
+    position: absolute;
+}
+/* for aside */
+.aside{
+    width: 3%;
+    float: left;
+    background-color: lightcyan;
+    margin-left: 1247px;
+    height: 80%;
+    position: absolute;
+}
+/* aadhar details*/
+.aadhar-details{
+    margin-top: 10px;
+    margin-left: 25px;
+    float: left;
+}
+/* .Name{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 8px;
+    /* width: 100px; */
+ 
+.name-input{
+    width: 500px;
+    height: 25px;
+    border: 2px solid skyblue;
+    margin-top: 8px;
+}
+
+/* for adress */
+.adress{
+    position: absolute;
+    margin-top: 230px;
+    float: left;
+
+}
+.adress-details{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 20px;
+    float: left;
+}
+
+/* submit button */
+.submit{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 70%;
+}
+.button-design{
+    width: 100px;
+    background-color: skyblue;
+    height: 25px;
+}
+
+

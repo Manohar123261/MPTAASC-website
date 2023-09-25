@@ -27,9 +27,88 @@
         <span class="hitgrahi">हितग्राही प्रोफाइल पंजीकरण
             <hr style="border: 1.5px solid skyblue;">
         </span>
-        <span class="hitgrahi" style="margin-top: 65px; font-size: 15px;"><span style="color: red;">*</span> से चिन्हित की गयीं फ़ील्ड्स अनिवार्य रूप से भरी होना चाहिए
+        <span class="hitgrahi" style="margin-top: 50px; font-size: 13px;"><span style="color: red;">*</span> से चिन्हित की गयीं फ़ील्ड्स अनिवार्य रूप से भरी होना चाहिए
         <hr style="border: 1.5px solid skyblue;">    
     </span>
     </header>
+    <nav class="nav">
+
+    </nav>
+    <main class="main">
+        <span style="color: blue; margin-left:10px;">आधार के अनुसार विवरण<br></span>
+        <div class="aadhar-details">
+            <span><span style="color: red;">*</span>आधार के अनुसार नाम-अंग्रेजी में<br></span>
+            <input class="name-input" id="name-eng">
+            </input>
+        </div>
+        <div class="aadhar-details">
+            <span><span style="color: red;">*</span>आधार के अनुसार नाम-हिंदी में<br></span>
+            <input class="name-input" id="name-hindi">
+            </input>
+        </div>
+        <div class="aadhar-details">
+            <span><span style="color: red;">*</span>जन्म की तारीख <br></span>
+            <input class="name-input" id="dob">
+            </input>
+        </div>
+        <div class="aadhar-details">
+            <span><span style="color: red;">*</span>पिता का नाम<br></span>
+            <input class="name-input" id="father-name">
+            </input>
+        </div>
+        <div class="aadhar-details">
+            <span><span style="color: red;">*</span> लिंग<br></span>
+            <select class="name-input" id="gender">
+                <option>please-select-your-gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Transgender</option>
+            </select>
+            <span><br></span>
+        </div>
+        <!-- for address of user -->
+        <!-- <div class="adress-details"> -->
+        <div class="adress">
+        <span style="color: blue; margin-left:10px;"> मध्यप्रदेश में मूल निवास का पता<br></span>
+        </div>
+         <div class="adress-details">
+            <span><span style="color: red;">*</span>मकान न./ इमारत / भवन<br></span>
+            <input class="name-input" id="house-no">
+            </input>
+        </div>
+        
+        <div class="adress-details" style="margin-left: 46%;">
+            <span><span style="color: red;">*</span>कृपया गली/मार्ग/मोहल्‍ला दर्ज करें<br></span>
+            <input class="name-input" id="root">
+            </input>
+        </div>
+        
+        <div class="adress-details" style="margin-top: 335px;">
+            <span><span style="color: red;">*</span>क्षेत्र / परिसर / सेक्टर<br></span>
+            <input class="name-input" id="area">
+            </input>
+        </div>
+        
+        <div class="adress-details" style="margin-left: 46%;margin-top: 335px;">
+            <span><span style="color: red;">*</span>पिन कोड<br></span>
+            <input class="name-input" id="pin-code">
+            </input>
+        </div>
+        --
+        <div class="adress-details" style="margin-top: 390px;">
+            <span><span style="color: red;">*</span> क्षेत्र </span><br>
+            <input type="radio" id="village" name="area" value="village">
+            <label for="village"> ग्रामीण</label>
+            <input type="radio" id="city" name="area" value="city">
+            <label for="city"> शहरी</label><br>
+        </div>
+        <div class="submit">
+            <button class="button-design" onclick="submit()">submit</button>
+        </div>
+        <!-- </div> -->
+    </main>
+    <aside class="aside">
+    </aside>
+    <script src="account-creation.js"></script>
 </body>
 </html> 
