@@ -70,7 +70,7 @@ function sendDataToServer(data) {
         
         body: JSON.stringify(data), // Convert the data to JSON format
     })
-    console.log("at client");
+    // console.log("at client");
     .then(response => response.json())
         .then(data => {
             // Handle the response from the server if needed

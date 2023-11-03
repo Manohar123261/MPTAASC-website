@@ -2,6 +2,9 @@ const express=require('express');
 const bodyparser=require('body-parser');
 const app = express();
 const port = 3000;
+const cors = require('cors');
+// Enable CORS for all routes
+app.use(cors());
 app.use(express.json())
 app.use(express.static('account-creation'))
 const {createPool}=require('mysql');
